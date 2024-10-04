@@ -9,6 +9,31 @@
   </head>
   <body>
     <a href="./index.html">Назад</a>
-    <script type="module" src="./js/1-timer.js"></script>
+    <div class="form-container">
+      <div class="input-container">
+        <input type="text" id="datetime-picker" />
+        <button type="button" class="data-btn" data-start>Start</button>
+      </div>
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+
+      <script type="module" src="./js/1-timer.js"></script>
+    </div>
   </body>
 </html>
